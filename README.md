@@ -17,3 +17,13 @@
 - Case-insensitive: /re/i
 - Multiline: /re/m
 - Dot-matches-all: /re/s
+
+## LITERAL CHARACTERS
+
+### Strings
+- /car/ matches "car"
+- /car/ matches the first three letters of "carnival"
+- Similar to searching in a word processor
+- Simplest match there is
+
+### Case-sensitive (by default)
