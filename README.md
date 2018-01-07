@@ -27,3 +27,7 @@
 - Simplest match there is
 
 ### Case-sensitive (by default)
+
+### Standard (non-global) matching
+- Earliest (leftmost) match is always preferred
+
