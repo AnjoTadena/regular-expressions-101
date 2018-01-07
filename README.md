@@ -6,3 +6,7 @@
 - /abc/
 - As in: g/re/p
 - Use without forward slashes
+
+### Text string
+- "abc"
+- Use without quotes
