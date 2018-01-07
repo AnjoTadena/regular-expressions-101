@@ -44,3 +44,14 @@
 - Depends on how it is used in context
 
 ### Variation between regex engines
+
+## THE WILDCARD METACHARACTER
+
+### Matches any one character except newline
+- Original Unix regex tools were line-based
+- /h.t/ matches "hat", "hot", and "hit", but no "heat"
+
+### Broadest match possible
+### Most common metacharacter
+### Most common mistake
+- /9.00/ matches "9.00", "9500", and "9-00"
