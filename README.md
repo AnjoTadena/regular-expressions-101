@@ -31,3 +31,16 @@
 ### Standard (non-global) matching
 - Earliest (leftmost) match is always preferred
 
+## METACHARACTERS
+
+### Characters with special meaning
+- Like mathematical operators
+- Transform literal characters into powerful expressions
+
+### Only a few metacharacters to learn
+- \ . * + - {} [] ^ $ | ? () : ! =
+
+### Can have more than one meaning
+- Depends on how it is used in context
+
+### Variation between regex engines
