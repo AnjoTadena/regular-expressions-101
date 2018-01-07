@@ -55,3 +55,34 @@
 ### Most common metacharacter
 ### Most common mistake
 - /9.00/ matches "9.00", "9500", and "9-00"
+
+    The challenge of regular expressions is both matching what you want and only what you want.
+
+## ESCAPING METACHARACTERS
+    \ = Escape the next character
+
+### Allows use of metacharacters as literal characters
+- Match a period with \.
+* /9\.00/ matches "9.00", but not "9500" or "9-00"
+- Match a backslash by escaping a backslash(\\)
+### Only for metacharacters
+- Literal characters should never be escaped, gives them meaning.
+
+### Quotation marks are note metacharacters, do not need to be escaped.
+
+## OTHER SPECIAL CHARACTERS
+
+### Spaces
+
+### Tabs
+- \t
+
+### Line returns
+- \r, \n, \r\n
+
+### Non-printable characters
+- bell(\a), escape(\e), form feed(\f), vertical tab(\v)
+
+### ASCII or ANSI codes
+- Codes that control appearance of a text terminal
+- 0xA9 = \xA9
