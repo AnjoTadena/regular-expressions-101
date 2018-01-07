@@ -3,6 +3,6 @@
 ## NOTATION CONVENTIONS AND MODES
 
 ### Regular expressions
-    - /abc/
-    - As in: g/re/p
-    - Use without forward slashes
+- /abc/
+- As in: g/re/p
+- Use without forward slashes
